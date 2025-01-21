@@ -1,13 +1,17 @@
-import React from 'react';
-import Menu from './Menu'; // Import Menu component
-import './App.css';
+
+import './App.css'
+import Header from './Header'
+
 
 function App() {
+  
+
   return (
-    <div>
-      <Menu /> {/* Render the Menu component */}
-    </div>
-  );
+    <>
+     <Header/>
+      
+    </>
+  )
 }
 
-export default App;
+export default App
